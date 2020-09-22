@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- How to benefit? -->
-    <div style="text-transform: uppercase; margin-top: 60px; text-align: center;">
+    <div style="text-transform: uppercase; text-align: center;">
       <div style="margin-bottom: 5px;">Comment bénéficier de l'offre</div>
       <strong>
         <div>150€ de réduction* dès 1000€ d'achat</div>
@@ -51,7 +51,7 @@
     <div style="text-align: center; margin-top: 40px; margin-bottom: 40px;">
       <v-btn class="ma-2" depressed  tile color="#ed3323" width="220" height="28" style="color: white;">
         Je m'inscris
-      </v-btn> 
+      </v-btn>
     </div>
   </div>
 </template>
