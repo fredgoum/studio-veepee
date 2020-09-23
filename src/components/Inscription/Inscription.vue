@@ -5,7 +5,7 @@
       <div style="margin-bottom: 5px;">Comment bénéficier de l'offre</div>
       <strong>
         <div>150€ de réduction* dès 1000€ d'achat</div>
-        <div>-------------</div>
+        <img width="90" height="4" src="@/assets/dash.png" alt="dash">
       </strong>
     </div>
     <!-- Already member? -->

@@ -1,7 +1,7 @@
 <template>
   <v-card flat>
     <!-- Images Sliders -->
-    <v-carousel height="200" hide-delimiters>
+    <v-carousel height="200" :next-icon="false" :prev-icon="false">
       <v-carousel-item v-for="(item, index) in images" :key="index"
         :src="item.src"
         reverse-transition="fade-transition" transition="fade-transition">
@@ -11,10 +11,10 @@
       <v-card-title>
         <div style="text-transform: uppercase; color: white;">
           <div style="position: absolute; bottom: 0; left: 10px;">
-            <span v-if="destination.place === 'Dubaï'">{{ destination.place }}</span>
+            <strong v-if="destination.place === 'Dubaï'" style="font-size: 25px;">{{ destination.place }}</strong>
           </div>
           <div style="position: absolute; bottom: 0; right: 10px;">
-            <span>{{ destination.upto }}</span>
+            <strong style="font-size: 15px;">{{ destination.upto }}</strong>
           </div>
         </div>
       </v-card-title>
@@ -61,7 +61,6 @@ export default {
 
   data() {
     return {
-      rating: 2,
       images: [
         {
           src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',

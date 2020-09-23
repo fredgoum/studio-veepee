@@ -17,7 +17,12 @@ export default [
         "label": "Surclassement offert"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/FAIRMONT_DUBAI.png",
+      "@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png",
+      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png"
+    ]
   },
   { // 2
     "id": 2,
@@ -37,7 +42,12 @@ export default [
         "label": "Spa"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/CLOS_DU_LITTORAL.png",
+      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png",
+      "@/assets/images_destinations/LAGUNA_BEACH.png"
+    ]
   },
   { // 3
     "id": 3,
@@ -57,7 +67,12 @@ export default [
         "label": "Rooftop"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/FAIRMONT_DUBAI.png",
+      "@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png",
+      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png"
+    ]
   },
   { // 4
     "id": 4,
@@ -77,7 +92,12 @@ export default [
         "label": "Petit déjeuner inclus"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/STHALA_MARC_PATRA.png",
+      "@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png",
+      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png"
+    ]
   },
   { // 5
     "id": 5,
@@ -97,7 +117,12 @@ export default [
         "label": "Massage offert"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/NOKU_MALDIVES.png",
+      "@/assets/images_destinations/STHALA_MARC_PATRA.png",
+      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png"
+    ]
   },
   { // 6
     "id": 6,
@@ -117,7 +142,12 @@ export default [
         "label": "Surclassement offert"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png",
+      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png",
+      "@/assets/images_destinations/LAGUNA_BEACH.png"
+    ]
   },
   { // 7
     "id": 7,
@@ -137,7 +167,12 @@ export default [
         "label": "Villas avec Piscine Privée"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/CLOS_DU_LITTORAL.png",
+      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png",
+      "@/assets/images_destinations/LAGUNA_BEACH.png"
+    ]
   },
   { // 8
     "id": 8,
@@ -157,7 +192,12 @@ export default [
         "label": "Privatif"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/ECHAPEE_SRI_LANKAISE.png",
+      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png",
+      "@/assets/images_destinations/LAGUNA_BEACH.png"
+    ]
   },
   { // 9
     "id": 9,
@@ -177,7 +217,12 @@ export default [
         "label": "Insolite"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/JAPON.png",
+      "@/assets/images_destinations/LAGUNA_BEACH.png",
+      "@/assets/images_destinations/STHALA_MARC_PATRA.png"
+    ]
   },
   { // 10
     "id": 10,
@@ -197,6 +242,11 @@ export default [
         "label": "Privatif"
       }
     ],
-    "link": ""
+    "link": "",
+    "images": [
+      "@/assets/images_destinations/LAGUNA_BEACH.png",
+      "@/assets/images_destinations/STHALA_MARC_PATRA.png",
+      "@/assets/images_destinations/CLOS_DU_LITTORAL.png"
+    ]
   },
 ];

@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import jsonDatas from '@/data/destinations.js';
+import jsonDatas from '@/assets/data/destinations.js';
 import Inscription from '@/components/Inscription/Inscription.vue';
 import HomeDestinationsDestination from './HomeDestinationsDestination.vue';
 export default {

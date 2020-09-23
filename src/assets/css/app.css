@@ -1,0 +1,46 @@
+/* Load fonts styles */
+@font-face {
+  font-family: 'SevenOneEight-ExtraBold';
+  src: url(../fonts/SevenOneEight-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SevenOneEight-Black';
+  src: url(../fonts/SevenOneEight-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SevenOneEight-Book';
+  font-style:normal;
+  src: url(../fonts/SevenOneEight-Book.ttf);
+}
+@font-face {
+  font-family: 'SevenOneEight-Medium';
+  src: url(../fonts/SevenOneEight-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SevenOneEight-Light';
+  src: url(../fonts/SevenOneEight-Light.ttf) format('truetype');
+}
+
+/* Apply app css */
+body {
+  background-color: #efefef;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+#app {
+  font-family: "SevenOneEight-Median";
+}
+#header-title {
+  font-family: "SevenOneEight-Light";
+}
+
+/* Display on mobile screen */
+@media screen and (max-width: 880px) {
+  body {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #red-dash {
+    width: 90px;
+  }
+}

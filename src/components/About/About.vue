@@ -8,7 +8,13 @@
       <div style="margin-top:5px;">
         Vol + hôtel négociés jusqu'à -70%
       </div>
-      <div style="color: #ed3323;">--------------------------------------</div>
+      <img id="red-dash" class="black-red" width="250" height="3" src="@/assets/dash.png" alt="dash">
     </v-col>
   </v-footer>
 </template>
+
+<style scoped>
+.black-red {
+  filter: invert(35%) sepia(93%) saturate(7471%) hue-rotate(356deg) brightness(80%) contrast(90%);
+}
+</style>
