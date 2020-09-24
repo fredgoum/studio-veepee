@@ -1,10 +1,10 @@
 <template>
   <v-card flat>
     <!-- Images Sliders -->
-    <v-carousel height="200" :next-icon="false" :prev-icon="false">
-      <v-carousel-item v-for="(item, index) in images" :key="index"
-        :src="item.src"
-        reverse-transition="fade-transition" transition="fade-transition">
+    <v-carousel data-app height="200" hide-delimiters>
+      <v-carousel-item v-for="(imgsrc, index) in destination.images" :key="index" 
+                       :src="imgsrc"
+                       reverse-transition="fade-transition" transition="fade-transition">
       </v-carousel-item>
 
       <!-- Upto -->
@@ -57,25 +57,6 @@
 export default {
   props: {
     destination: { type: Object, default: null },
-  },
-
-  data() {
-    return {
-      images: [
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-        },
-      ],
-    };
   },
 };
 </script>

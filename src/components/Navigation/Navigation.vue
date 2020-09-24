@@ -1,6 +1,6 @@
 <template>
   <!-- Navigation  -->
-  <div style="text-transform: uppercase; text-align: center; margin-bottom: 50px; margin-top: 10px;">
+  <div style="text-transform: uppercase; text-align: center; margin-bottom: 20px; margin-top: 10px;">
     <strong id="header-title" style="font-size: 20px; color: #ed3323">
       Découvrez les offres du moment
     </strong>

@@ -19,9 +19,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/FAIRMONT_DUBAI.png",
-      "@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png",
-      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png"
+      require('@/assets/images_destinations/FAIRMONT_DUBAI.png'),
+      require('@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png'),
+      require('@/assets/images_destinations/HYATT_REGENCY_CREEK.png')
     ]
   },
   { // 2
@@ -44,9 +44,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/CLOS_DU_LITTORAL.png",
-      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png",
-      "@/assets/images_destinations/LAGUNA_BEACH.png"
+      require('@/assets/images_destinations/CLOS_DU_LITTORAL.png'),
+      require('@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png'),
+      require('@/assets/images_destinations/LAGUNA_BEACH.png')
     ]
   },
   { // 3
@@ -69,9 +69,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/FAIRMONT_DUBAI.png",
-      "@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png",
-      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png"
+      require('@/assets/images_destinations/FAIRMONT_DUBAI.png'),
+      require('@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png'),
+      require('@/assets/images_destinations/HYATT_REGENCY_CREEK.png')
     ]
   },
   { // 4
@@ -94,9 +94,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/STHALA_MARC_PATRA.png",
-      "@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png",
-      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png"
+      require('@/assets/images_destinations/STHALA_MARC_PATRA.png'),
+      require('@/assets/images_destinations/ENTRE_CULTURE_ET_PLAGES.png'),
+      require('@/assets/images_destinations/HYATT_REGENCY_CREEK.png')
     ]
   },
   { // 5
@@ -119,9 +119,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/NOKU_MALDIVES.png",
-      "@/assets/images_destinations/STHALA_MARC_PATRA.png",
-      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png"
+      require('@/assets/images_destinations/NOKU_MALDIVES.png'),
+      require('@/assets/images_destinations/STHALA_MARC_PATRA.png'),
+      require('@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png')
     ]
   },
   { // 6
@@ -144,9 +144,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png",
-      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png",
-      "@/assets/images_destinations/LAGUNA_BEACH.png"
+      require('@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png'),
+      require('@/assets/images_destinations/HYATT_REGENCY_CREEK.png'),
+      require('@/assets/images_destinations/LAGUNA_BEACH.png')
     ]
   },
   { // 7
@@ -169,9 +169,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/CLOS_DU_LITTORAL.png",
-      "@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png",
-      "@/assets/images_destinations/LAGUNA_BEACH.png"
+      require('@/assets/images_destinations/CLOS_DU_LITTORAL.png'),
+      require('@/assets/images_destinations/IMPIANA_RESORT_SAMUI.png'),
+      require('@/assets/images_destinations/LAGUNA_BEACH.png')
     ]
   },
   { // 8
@@ -194,9 +194,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/ECHAPEE_SRI_LANKAISE.png",
-      "@/assets/images_destinations/HYATT_REGENCY_CREEK.png",
-      "@/assets/images_destinations/LAGUNA_BEACH.png"
+      require('@/assets/images_destinations/ECHAPEE_SRI_LANKAISE.png'),
+      require('@/assets/images_destinations/HYATT_REGENCY_CREEK.png'),
+      require('@/assets/images_destinations/LAGUNA_BEACH.png')
     ]
   },
   { // 9
@@ -219,9 +219,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/JAPON.png",
-      "@/assets/images_destinations/LAGUNA_BEACH.png",
-      "@/assets/images_destinations/STHALA_MARC_PATRA.png"
+      require('@/assets/images_destinations/JAPON.jpg'),
+      require('@/assets/images_destinations/LAGUNA_BEACH.png'),
+      require('@/assets/images_destinations/STHALA_MARC_PATRA.png')
     ]
   },
   { // 10
@@ -244,9 +244,9 @@ export default [
     ],
     "link": "",
     "images": [
-      "@/assets/images_destinations/LAGUNA_BEACH.png",
-      "@/assets/images_destinations/STHALA_MARC_PATRA.png",
-      "@/assets/images_destinations/CLOS_DU_LITTORAL.png"
+      require('@/assets/images_destinations/LAGUNA_BEACH.png'),
+      require('@/assets/images_destinations/STHALA_MARC_PATRA.png'),
+      require('@/assets/images_destinations/CLOS_DU_LITTORAL.png')
     ]
   },
 ];
