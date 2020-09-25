@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Site navigation -->
+    <!-- Site navigation/header-->
     <navigation></navigation>
     <!-- Site content -->
     <home-destinations></home-destinations>

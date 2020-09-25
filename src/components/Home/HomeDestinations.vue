@@ -1,22 +1,31 @@
 <template>
   <div>
-    <!-- Btn destinations -->
-    <v-container style="width: 350px; color:red;">
+    <!-- Destinations Filter -->
+    <v-container id="filter-container">
       <div style="display: flex">
-        <img src="@/assets/filter_icon.png" alt="filter icon" style="margin-top: 6px; height: 38px; cursor: pointer;"
+        <img src="@/assets/filter_icon.png" alt="filter icon"
+             style="margin-top: 6px; height: 38px; cursor: pointer;"
              @click="selectedDestination = 'allCountries'">
-        <v-overflow-btn v-model="selectedDestination" :items="destinationsList" label="DESTINATIONS" dense>
+        <div style="text-align: center; margin-top: 6px;">
+          <v-btn id="btn-destinations" depressed tile color="#FFFFFF"
+                 @click="selectedDestination = 'allCountries'">
+            DESTINATIONS
+          </v-btn>
+        </div>
+        <v-overflow-btn style="width:0px;" v-model="selectedDestination" :items="destinationsList" dense>
         </v-overflow-btn>
       </div>
     </v-container>
 
     <!-- Progress for data loading -->
     <div v-if="! dataLoaded" style="text-align: center;">
-      <v-progress-circular :size="80" :width="7" indeterminate color="#0169aa" style="padding-bottom: 180px;"></v-progress-circular>
+      <v-progress-circular :size="80" :width="7" indeterminate color="#ed3323"
+                            style="padding-bottom: 180px;">
+      </v-progress-circular>
     </div>
 
     <!-- Display of the destinations list -->
-    <div v-show="dataLoaded">
+    <div v-show="dataLoaded" style="margin-bottom: 30px;">
       <v-container fluid>
         <v-row>
           <v-col v-for="destination in selectedDisplayDestinations" :key="destination.id"
@@ -34,12 +43,9 @@
 </template>
 
 <style>
-.v-overflow-btn.v-input--dense .v-select__slot {
-  background-color: white;
-}
 .v-input__icon {
-    position: absolute;
-    top: 3px;
+  position: absolute;
+  top: 3px;
 }
 </style>
 
@@ -73,7 +79,7 @@ export default {
     }
   },
   computed: {
-    // Country selected
+    // Selected country
     selectedDestination: {
       get() {
         return this.country;
@@ -82,14 +88,14 @@ export default {
         this.country = newVal;
       }
     },
-    // Display destinations corressponding to country selected
+    // Display destinations for selected country
     selectedDisplayDestinations() {
       if (! this.selectedDestination || this.selectedDestination === "allCountries") return this.destinations;
       return this.destinations.filter(destination => destination.country === this.selectedDestination);
     }
   },
   created() {
-    if (this.destinations && this.destinations.length)  this.dataLoaded = true;
+    if (this.destinations && this.destinations.length) this.dataLoaded = true;
   },
 };
 </script>

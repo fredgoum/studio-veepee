@@ -2,14 +2,18 @@
   <div>
     <!-- How to benefit? -->
     <div style="text-transform: uppercase; text-align: center;">
-      <div style="margin-bottom: 5px;">Comment bénéficier de l'offre</div>
+      <div style="font-family: SevenOneEight-Light; margin-bottom: 2px;">
+        Comment bénéficier de l'offre
+      </div>
       <strong>
-        <div>150€ de réduction* dès 1000€ d'achat</div>
-        <img width="90" height="4" src="@/assets/dash.png" alt="dash">
+        <div style="margin-bottom: -6px;">
+          150€ de réduction* dès 1000€ d'achat
+        </div>
+        <img width="100" height="3" src="@/assets/dash.png" alt="dash">
       </strong>
     </div>
     <!-- Already member? -->
-    <div style="margin-top: 35px; margin-bottom: 35px; padding: 20px; background-color: #ed3323; color: white; text-align: center;">
+    <div style="margin-top: 20px; margin-bottom: 15px; padding: 13px; background-color: #ed3323; color: white; text-align: center;">
       <strong>Déjà membre ?</strong>
       <div style="font-size: 13px; margin-top: 10px;">
         Votre code promo vous attend directement sur le site <a href="" style="color: white;">en cliquant ici</a>
@@ -17,8 +21,8 @@
     </div>
 
     <!-- Steps -->
-    <v-container bg fill-height grid-list-md text-xs-center>
-      <v-layout row wrap style="text-transform: uppercase;">
+    <v-container grid-list-md>
+      <v-layout row wrap style="text-transform: uppercase; font-family: SevenOneEight-Light; font-size: 15px">
         <!-- Step 1 -->
         <v-flex style="display: flex;">
           <strong style="color: #ed3323; font-size: 40px; margin-right: 10px;">1</strong>
@@ -48,8 +52,8 @@
     </v-container>
 
     <!-- Btn inscription -->
-    <div style="text-align: center; margin-top: 40px; margin-bottom: 40px;">
-      <v-btn class="ma-2" depressed  tile color="#ed3323" width="220" height="28" style="color: white;">
+    <div style="text-align: center; margin-top: 15px; margin-bottom: 36px;">
+      <v-btn depressed tile color="#ed3323" width="220" height="28" style="color: white;">
         Je m'inscris
       </v-btn>
     </div>
