@@ -22,7 +22,7 @@
     <div class="display-flex" style="margin-top: -8px;">
       <v-card-text style="margin-bottom: -8px;">
         <!-- Country & Place -->
-        <strong>{{ destination.country }}</strong> - <span>{{ destination.place }}</span>
+        <strong id="country-place">{{ destination.country }}</strong> - <span>{{ destination.place }}</span>
         <!-- Rating -->
         <div id="rating">
           <span id="rating-label">{{ destination.label }}</span>

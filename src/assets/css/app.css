@@ -28,7 +28,7 @@ body {
   margin-right: 7%;
 }
 #app {
-  font-family: "SevenOneEight-Medium", "SevenOneEight-Light", "SevenOneEight-Black", "SevenOneEight-Book", "SevenOneEight-ExtraBold";
+  font-family: "SevenOneEight-Light", "SevenOneEight-Medium", "SevenOneEight-Black", "SevenOneEight-Book", "SevenOneEight-ExtraBold";
 }
 #header {
   text-transform: uppercase;
@@ -36,12 +36,12 @@ body {
   margin-top: 10px;
 }
 #header-title {
-  font-family: "SevenOneEight-Light";
+  font-family: "SevenOneEight-Medium";
   font-size: 30px;
   color: #ed3323
 }
 #header-subtitle {
-  margin: 1px;
+  font-family: "SevenOneEight-Medium";
   font-size: 26px;
 }
 #nav-dash {
@@ -78,7 +78,7 @@ body {
   margin-right: -11px
 }
 #upto {
-  font-family: SevenOneEight-ExtraBold;
+  font-family: "SevenOneEight-Black";
   text-transform: uppercase;
   color: white;
 }
@@ -96,6 +96,9 @@ body {
   margin-top: -5px;
   margin-bottom: -2px;
 }
+#country-place {
+  font-family: "SevenOneEight-Book";
+}
 #rating-label {
   font-size: 12px;
   margin-right: 3px;
@@ -105,14 +108,12 @@ body {
   font-size: 11px;
 }
 #tags-premium {
-  font-family: SevenOneEight-Light;
   margin-right: 5px;
   background: #000000;
   color: white;
   padding: 2px;
 }
 #tags-option {
-  font-family: SevenOneEight-Light;
   background: #bd9c6a;
   color: white;
   padding: 2px;
@@ -125,7 +126,6 @@ body {
   text-align: center;
 }
 #benefit {
-  font-family: SevenOneEight-Light;
   margin-bottom: 2px;
 }
 #member {
@@ -137,13 +137,11 @@ body {
   text-align: center;
 }
 #member-subtitle {
-  font-family: SevenOneEight-Light;
   font-size: 13px;
   margin-top: 10px;
 }
 #steps {
   text-transform: uppercase; 
-  font-family: SevenOneEight-Light;
   font-size: 15px
 }
 .step-number {
@@ -153,10 +151,9 @@ body {
 }
 .step-info {
   color: #ed3323;
-  font-family: SevenOneEight-Black;
+  font-family: "SevenOneEight-Black";
 }
 #btn-inscription {
-  font-family: SevenOneEight-Light;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 36px;
@@ -170,7 +167,6 @@ body {
   margin-right: 7%;
 }
 .footer-subtitle {
-  font-family: SevenOneEight-Light;
   margin-top:5px;
 }
 .black-red {

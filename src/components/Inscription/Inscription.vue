@@ -16,7 +16,7 @@
     <div id="member">
       <strong>Déjà membre ?</strong>
       <div id="member-subtitle">
-        Votre code promo vous attend directement sur le site <a href="" style="color: white;">en cliquant ici</a>
+        Votre code promo vous attend directement sur le site <u><a href="" style="color: white;">en cliquant ici</a></u>
       </div>
     </div>
 
