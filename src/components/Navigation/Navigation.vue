@@ -1,6 +1,6 @@
 <template>
   <!-- Navigation/Header -->
-  <div style="text-transform: uppercase; text-align: center; margin-top: 10px;">
+  <div id="header">
     <strong id="header-title">
       Découvrez les offres du moment
     </strong>

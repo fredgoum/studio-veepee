@@ -1,12 +1,11 @@
 <template>
   <div>
     <!-- Destinations Filter -->
-    <v-container id="filter-container">
-      <div style="display: flex">
-        <img src="@/assets/filter_icon.png" alt="filter icon"
-             style="margin-top: 6px; height: 38px; cursor: pointer;"
+    <v-container id="filter">
+      <div class="display-flex">
+        <img id="filter-icon" src="@/assets/filter_icon.png" alt="filter icon"
              @click="selectedDestination = 'allCountries'">
-        <div style="text-align: center; margin-top: 6px;">
+        <div class="text-center" style="margin-top: 6px;">
           <v-btn id="btn-destinations" depressed tile color="#FFFFFF"
                  @click="selectedDestination = 'allCountries'">
             DESTINATIONS
@@ -18,14 +17,12 @@
     </v-container>
 
     <!-- Progress for data loading -->
-    <div v-if="! dataLoaded" style="text-align: center;">
-      <v-progress-circular :size="80" :width="7" indeterminate color="#ed3323"
-                            style="padding-bottom: 180px;">
-      </v-progress-circular>
+    <div v-if="! dataLoaded" class="text-center">
+      <v-progress-circular id="progress-circular" :size="80" :width="7" indeterminate></v-progress-circular>
     </div>
 
     <!-- Display of the destinations list -->
-    <div v-show="dataLoaded" style="margin-bottom: 30px;">
+    <div v-show="dataLoaded" id="destinations-list">
       <v-container fluid>
         <v-row>
           <v-col v-for="destination in selectedDisplayDestinations" :key="destination.id"

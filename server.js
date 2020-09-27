@@ -1,4 +1,4 @@
-// server.js
+// server.js used for deployment on Heruko
 var express = require('express');
 var path = require('path');
 var serveStatic = require('serve-static');

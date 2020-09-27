@@ -21,14 +21,19 @@
   src: url(../fonts/SevenOneEight-Light.ttf) format('truetype');
 }
 
-/* Apply app css */
+/* Apply css */
 body {
   background-color: #efefef;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 #app {
-  font-family: "SevenOneEight-Median";
+  font-family: "SevenOneEight-Medium", "SevenOneEight-Light", "SevenOneEight-Black", "SevenOneEight-Book", "SevenOneEight-ExtraBold";
+}
+#header {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
 }
 #header-title {
   font-family: "SevenOneEight-Light";
@@ -43,21 +48,140 @@ body {
   width: 130px;
   height: 4px;
 }
-#filter-container {
+.display-flex {
+  display: flex
+}
+.text-center {
+  text-align: center; 
+}
+#filter {
   display: flex;
   justify-content: center;
   margin-top: 5px;
   margin-bottom: -25px;
 }
+#filter-icon {
+  margin-top: 6px;
+  height: 38px;
+  cursor: pointer;
+}
 #btn-destinations {
   height: 38px;
+}
+#progress-circular {
+  padding-bottom: 180px;
+  color: #ed3323;
+}
+#destinations-list {
+  margin-bottom: 30px;
+  margin-left: -11px;
+  margin-right: -11px
+}
+#upto {
+  font-family: SevenOneEight-ExtraBold;
+  text-transform: uppercase;
+  color: white;
+}
+#destination-place {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+#destination-upto {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+#rating {
+  margin-top: -5px;
+  margin-bottom: -2px;
+}
+#rating-label {
+  font-size: 12px;
+  margin-right: 3px;
+}
+#tags {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+#tags-premium {
+  font-family: SevenOneEight-Light;
+  margin-right: 5px;
+  background: #000000;
+  color: white;
+  padding: 2px;
+}
+#tags-option {
+  font-family: SevenOneEight-Light;
+  background: #bd9c6a;
+  color: white;
+  padding: 2px;
+}
+#bloc-inscription {
+  margin-bottom: 130px;
+}
+#benefit-container {
+  text-transform: uppercase;
+  text-align: center;
+}
+#benefit {
+  font-family: SevenOneEight-Light;
+  margin-bottom: 2px;
+}
+#member {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 13px;
+  background-color: #ed3323;
+  color: white;
+  text-align: center;
+}
+#member-subtitle {
+  font-family: SevenOneEight-Light;
+  font-size: 13px;
+  margin-top: 10px;
+}
+#steps {
+  text-transform: uppercase; 
+  font-family: SevenOneEight-Light;
+  font-size: 15px
+}
+.step-number {
+  color: #ed3323;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.step-info {
+  color: #ed3323;
+  font-family: SevenOneEight-Black;
+}
+#btn-inscription {
+  font-family: SevenOneEight-Light;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 36px;
+}
+#footer {
+  z-index: 99;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.footer-subtitle {
+  font-family: SevenOneEight-Light;
+  margin-top:5px;
+}
+.black-red {
+  margin-bottom: 15px;
 }
 
 /* Display on mobile screen */
 @media screen and (max-width: 880px) {
   body {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   #header-title {
     font-size: 18px;
@@ -75,5 +199,18 @@ body {
   }
   #btn-destinations {
     width: 125px;
+  }
+  #footer {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  #footer-title {
+    font-size: 14px;
+  }
+  #footer-subtitle {
+    font-size: 13px;
+  }
+  .black-red {
+    width: 70px;
   }
 }

@@ -1,4 +1,7 @@
 import Vue from 'vue'
+import '@babel/polyfill'
+import 'mutationobserver-shim'
+import './plugins/bootstrap-vue'
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import App from './App.vue';
 import router from './router';
