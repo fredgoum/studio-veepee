@@ -24,26 +24,26 @@
     <v-container grid-list-md>
       <v-layout id="steps" row wrap>
         <!-- Step 1 -->
-        <v-flex class="display-flex">
+        <v-flex class="step">
           <strong class="step-number">1</strong>
-          <div>
+          <div style="text-align: left; padding: 12px 0;">
             <div>Rejoignez</div>
             <strong class="step-info">EMIRATES | THE LIST</strong>
           </div>
         </v-flex>
         <!-- Step 2 -->
-        <v-flex class="display-flex">
+        <v-flex class="step">
           <strong class="step-number">2</strong>
-          <div>
+          <div style="text-align: left; padding: 4px 0;">
             <div>Recevez par email</div>
             <strong class="step-info">VOTRE BON DE 150€ OFFERT</strong>
             <div>à utiliser dès 1000€ d'achat</div>
           </div>
         </v-flex>
         <!-- Step 3 -->
-        <v-flex class="display-flex">
+        <v-flex id="step3" class="step">
           <strong class="step-number">3</strong>
-          <div>
+          <div style="text-align: left; padding: 12px 0;">
             <div>Réservez votre séjour</div>
             <strong class="step-info">Avant le 30 avril 2019</strong>
           </div>

@@ -144,9 +144,13 @@ body {
   text-transform: uppercase; 
   font-size: 15px
 }
+.step {
+  display: flex;
+  justify-content: center;
+}
 .step-number {
   color: #ed3323;
-  font-size: 40px;
+  font-size: 50px;
   margin-right: 10px;
 }
 .step-info {
@@ -195,6 +199,10 @@ body {
   }
   #btn-destinations {
     width: 125px;
+  }
+  .step {
+    justify-content: flex-start;
+    margin-left: 20px;
   }
   #footer {
     margin-left: 2%;
