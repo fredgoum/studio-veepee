@@ -4,15 +4,13 @@
     <v-container id="filter">
       <div class="display-flex">
         <img id="filter-icon" src="@/assets/filter_icon.png" alt="filter icon"
-             @click="selectedDestination = 'allCountries'">
-        <div class="text-center" style="margin-top: 6px;">
-          <v-btn id="btn-destinations" depressed tile color="#FFFFFF"
-                 @click="selectedDestination = 'allCountries'">
-            DESTINATIONS
-          </v-btn>
-        </div>
-        <v-overflow-btn style="width:0px;" v-model="selectedDestination" :items="destinationsList" dense>
-        </v-overflow-btn>
+             @click="selectedDestination = 'AFFICHER TOUS LES PAYS'">
+             
+        <b-dropdown id="dropdown" :text="selectedDestination" variant="transparent">
+          <div v-for="(item, index) in destinationsList" :key="index">
+            <b-dropdown-item @click="selectedDestination=item">{{ item }}</b-dropdown-item>
+          </div>
+      </b-dropdown>
       </div>
     </v-container>
 
@@ -39,13 +37,6 @@
   </div>
 </template>
 
-<style>
-.v-input__icon {
-  position: absolute;
-  top: 3px;
-}
-</style>
-
 <script>
 import jsonDatas from '@/assets/data/destinations.js';
 import Inscription from '@/components/Inscription/Inscription.vue';
@@ -62,17 +53,17 @@ export default {
       destinations: jsonDatas,
       dataLoaded: false,
       destinationsList: [
-        { value: 'allCountries', text: 'AFFICHER TOUS LES PAYS' },
-        { value: 'Emirates Arabes Unis', text: 'Emirates Arabes Unis' },
-        { value: 'Maurice', text: 'Maurice' },
-        { value: 'Indonésie', text: 'Indonésie' },
-        { value: 'Maldives', text: 'Maldives' },
-        { value: 'Thaïlande', text: 'Thaïlande' },
-        { value: 'Sri Lanka', text: 'Sri Lanka' },
-        { value: 'Japon', text: 'Japon' },
-        { value: 'Vietnam', text: 'Vietnam' },
+        'AFFICHER TOUS LES PAYS',
+        'Emirates Arabes Unis',
+        'Maurice',
+        'Indonésie',
+        'Maldives',
+        'Thaïlande',
+        'Sri Lanka',
+        'Japon',
+        'Vietnam',
       ],
-      country: "",
+      country: 'DESTINATIONS',
     }
   },
   computed: {
@@ -87,7 +78,8 @@ export default {
     },
     // Display destinations for selected country
     selectedDisplayDestinations() {
-      if (! this.selectedDestination || this.selectedDestination === "allCountries") return this.destinations;
+      if (this.selectedDestination === "DESTINATIONS") return this.destinations;
+      if (this.selectedDestination === "AFFICHER TOUS LES PAYS") return this.destinations;
       return this.destinations.filter(destination => destination.country === this.selectedDestination);
     }
   },
