@@ -1,4 +1,4 @@
-# test-veepee
+# Studio Veepee
 
 ## Project setup
 ```
