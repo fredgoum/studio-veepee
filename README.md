@@ -1,5 +1,7 @@
 # Studio Veepee
 
+### Travel Destinations Site.
+
 ## Project setup
 ```
 yarn install
